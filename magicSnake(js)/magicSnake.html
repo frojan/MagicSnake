@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>magicSnake</title>
+    <style>
+      * {padding:0px;margin:0px;list-style:none;} 
+      body{
+        background: #dddddd;
+      }    
+      #canvas{
+        display: none;
+      }
+
+    </style>
+    <script src='Snake.js' ></script>
+    <script src='Bfs.js' ></script>
+    <script src='Main.js' ></script>
+
+    <script>
+      window.onload=function(){
+        new Main();     
+      };
+    </script>
+  </head>
+  
+  <body>
+    <img id="gameImg" width='700' height='700' src="">
+    <canvas id="canvas" width='700' height='700'>
+      Canvas not supported
+    </canvas>
+  </body>
+</html>
