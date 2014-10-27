@@ -1,4 +1,4 @@
-curvilinearTool
+SnakeAI
 ===============
 
 a snake AI to eat all the food.
